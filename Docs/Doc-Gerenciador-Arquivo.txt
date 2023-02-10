@@ -1,0 +1,17 @@
+### Lex é um explorador de arquivos embutido no vim
+File Tree ou Explorador Arquivos ou File Manager ou Navegador de Arquivos.
+Para usar com o vim:
+### Lex
+Comandos
+:e. é uma opcao para explorar arquivos
+:d para procurar um diretorio
+:% para procurar um arquivo
+:Explore é outra opcao nativa para explorador de arquvios no VIM
+:Lex para entrar/sair
+:vertical resize 30 para redimensionar vertical
+### Adicionar vimrc
+inoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
+nnoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
+Caso acesse o VI é não tenha o VIM digite:
+:set nocompatible
+Isso faz com que o VIM seja "ativado".

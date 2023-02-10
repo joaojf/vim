@@ -1,0 +1,13 @@
+# Arquivo Exemplo VIM
+set confirm - Confirmar antes de sair
+set tabstop=4 - Tabulação auto
+set autoindent - Indentação auto
+syntax on - Valida extensão do arquivo
+
+set nu! - Númera linhas
+set incsearch - Destaca a palavra pesquisada
+set cursorline - Destaca a linha onde o cursor está
+set title - Destaca o nome do arquivo no título do editor
+set wildmenu - Destaca as opções da documentação ao apertar tab depois da palavra
+set laststatus=2 Destaca a barra inferior onde tem o nome do arquivo etc
+
